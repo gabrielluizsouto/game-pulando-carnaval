@@ -55,7 +55,7 @@ class Game {
 
     if (enemy.isVisible()) {
       this.actualEnemy = parseInt(random(0, 3));
-      enemy.velocity = parseInt(random(25, 35));
+      enemy.velocity = parseInt(random(25, 55));
     }
 
     if (character.isColliding(enemy)) {
